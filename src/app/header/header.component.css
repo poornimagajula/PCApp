@@ -1,0 +1,35 @@
+.navbar{
+    border:none !important;
+    background-color: #343a40  !important;
+    padding: 0% !important
+}
+
+.nav-link{    
+    color:#fff !important; 
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size:1rem !important; 
+    line-height: 1.5;
+    text-align: left; 
+}
+.title{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.tagline{
+    font-size:80%;
+    padding-left: 18%;
+}
+img{
+    width:55px;
+}
+.logo{
+    padding:0.5%;
+}
+.btn-outline-info:hover{
+    border-top-left-radius: 20% !important;
+    border-bottom-right-radius: 20% !important;
+    border-top-right-radius: 0%;
+    border-bottom-left-radius: 0%;
+    transition: 0.2s;
+    transform: scale(1.2);
+    box-shadow: 0px 0px 60px skyblue ;
+}

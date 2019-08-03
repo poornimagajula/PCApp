@@ -1,0 +1,18 @@
+<div class="container row">
+<div class = "col-lg-4 col-sm-6 col-xs-6 mt-5 ml-5">
+    <img src="../../assets/images/admin.ico" class="ml-5 img-fluid">
+</div>
+<div class=" card shadow-lg col-sm-6 col-xs-6 ml-5 mr-5 mt-5">
+    <form [formGroup]="adminForm" novalidate ngSubmit = "onSubmit()">
+        <div class="card-body text-center mt-3">
+            <label for="adminId" class="text-left ml-1">Admin Id </label>
+            <input class="ml-2 p-1 rounded-pill border border-info text-center" type="text" name="adminId"
+                formControlName="adminId" placeholder="_ _ _ " required ngModel> <br>
+            <label for="password" class="mt-2 text-left ml-1">Password </label>
+            <input class="ml-4 p-1 rounded-pill border border-info text-center" type="password" name="password"
+                formControlName="password" placeholder="_ _ _ " required ngModel> <br>
+            <input type="button" class="btn btn-info mt-3 shadow-lg px-5" value="Login">
+        </div>
+    </form>
+</div>
+</div>

@@ -1,0 +1,17 @@
+label{
+    font-family: efont;
+    font-size: 1.5rem;
+    color: mediumseagreen;
+}
+input[type="button"]{
+    font-family: efont;
+    font-size: 1.5rem;
+}
+input[type="text"],[type="password"]{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:teal;
+    
+}
+::placeholder{
+    color: lightseagreen !important;
+}
